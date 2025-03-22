@@ -1,0 +1,11 @@
+### model
+model_name_or_path: THUDM/glm-4-9b
+adapter_name_or_path: saves/glm4-9b/lora/sft
+template: glm4
+trust_remote_code: true
+
+### export
+export_dir: output/glm4
+export_size: 5
+export_device: gpu
+export_legacy_format: false
